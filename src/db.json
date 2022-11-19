@@ -1,0 +1,29 @@
+{
+    "solutions": [
+        {"word": "ninja", "id": 1},
+        {"word": "abuse", "id": 2},
+        {"word": "blood", "id": 3},
+        {"word": "cause", "id": 4},
+        {"word": "chest", "id": 5},
+        {"word": "cream", "id": 6},
+        {"word": "dance", "id": 7},
+        {"word": "cycle", "id": 8},
+        {"word": "earth", "id": 9},
+        {"word": "error", "id": 10},
+        {"word": "focus", "id": 11},
+        {"word": "force", "id": 12},
+        {"word": "frame", "id": 13},
+        {"word": "fruit", "id": 14},
+        {"word": "green", "id": 15},
+        {"word": "heart", "id": 16},
+        {"word": "horse", "id": 17},
+        {"word": "hotel", "id": 18},
+        {"word": "image", "id": 19},
+        {"word": "japan", "id": 20},
+        {"word": "judge", "id": 21},
+        {"word": "japan", "id": 22},
+        {"word": "knife", "id": 23},
+        {"word": "level", "id": 24},
+        {"word": "money", "id": 25}
+    ]
+}
