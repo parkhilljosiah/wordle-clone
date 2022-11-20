@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Navbar from "./components/Navbar";
 import Wordle from "./components/Wordle";
 
 function App() {
@@ -7,19 +8,21 @@ function App() {
 
   useEffect(() => {
     fetch('http://localhost:3001/solutions')
-    .then(res => res.json())
-    .then(json => {
-      //random int between 0 & 24
-      const randomSolution = json[Math.floor(Math.random()*json.length)]
-      setSolution(randomSolution.word);
-    })
+      .then(res => res.json())
+      .then(json => {
+        //random int between 0 & 24
+        const randomSolution = json[Math.floor(Math.random() * json.length)]
+        setSolution(randomSolution.word);
+      })
   }, [setSolution])
 
   return (
-    <div className="App">
-      <h1>Wordle Clone</h1>
-      {solution && <Wordle solution={solution} />}
-    </div>
+    <>
+      <div className="App">
+      <Navbar />
+        {solution && <Wordle solution={solution} />}
+      </div>
+    </>
   );
 }
 
